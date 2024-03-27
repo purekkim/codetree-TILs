@@ -1,10 +1,7 @@
 str1=input()
 str2=input()
-result=''
 
-combined_strings =str1+str2
-for char in combined_strings :
-    if char !='':
-        result += char
+combined_string=str1+str2
+result="".join(combined_string.split())
 
 print(result)
