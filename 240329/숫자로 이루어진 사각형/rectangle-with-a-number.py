@@ -10,4 +10,5 @@ def print_num(n,num):
         print(cnt,end="")
         cnt+=1
     
+n,num=solution()
 print_num(n,num)
