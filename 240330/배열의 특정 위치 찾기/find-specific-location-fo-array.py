@@ -10,7 +10,6 @@ for i in range(1,n,2):
 for i in range(2,n,3):
     sum_val += arr[i]
     cnt += 1
-    avg=sum_val/cnt
-
-
+    
+avg=sum_val/cnt
 print(sum_even,f"{avg:.1f}")
